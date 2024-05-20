@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-image: url(../images/header.jpg);
+    height: 880px;
+    background-size: 140%;
+    background-repeat: no-repeat;
+
+    
+}
+
+.principal {
+    height: 1000px;
+}
+
+.text-header{
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
