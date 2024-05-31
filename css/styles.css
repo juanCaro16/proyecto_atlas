@@ -11,25 +11,27 @@ header {
     background-size: cover;
     flex-direction: column;
 }
-main{
+
+main {
     height: 140vh;
 }
 
 .text-header {
     display: flex;
     justify-content: space-between;
-    margin: 90px 160px 50px 160px ; /*arriba,izquierda,abajo y derecha*/
+    margin: 90px 160px 50px 160px;
+    /*arriba,izquierda,abajo y derecha*/
     padding: 10px;
 }
 
 .logo-esquina {
     height: 100px;
-    
+
 }
 
 .texto {
     display: flex;
-    
+
     color: white;
     margin: 35px 50px;
     font-size: 20px;
@@ -37,130 +39,133 @@ main{
 }
 
 .Titles {
-    
+
     font-size: 68px;
     color: white;
-    
-    
+
+
 }
 
 
 
-.Parrafos{
+.Parrafos {
     color: white;
     font-size: 20px;
-    
+
 }
 
-.text-Header{
+.text-Header {
     margin: 0px 165px;
     color: white;
 }
 
-.boton{
-    background-color:  rgb(4, 248, 146);
+.boton {
+    background-color: rgb(4, 248, 146);
     font-weight: bold;
     border-radius: 15px;
     padding: 10px 20px
 }
 
-.Title-body{
+.Title-body {
     color: #3b3939;
     font-size: 70px;
     margin: 70px;
 }
 
-body{
-    background: linear-gradient(169deg, rgb(255, 255, 255) 0 70%, rgb(55, 244, 165) 70% 100%); /* Fondo degradado */
-    
+body {
+    background: linear-gradient(169deg, rgb(255, 255, 255) 0 70%, rgb(55, 244, 165) 70% 100%);
+    /* Fondo degradado */
+
 }
 
 
 
-.logos-body{
+.logos-body {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 
-.nav-text-logos{
+.nav-text-logos {
     display: flex;
     justify-content: center;
-    gap:  130px ;
+    gap: 130px;
     font-size: 15px;
-    color: #252424;  
+    color: #252424;
 }
 
-.nav-text-logos1{
+.nav-text-logos1 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5px;
-    
+
 }
 
-.Texto-cuerpo{
+.Texto-cuerpo {
     display: flex;
     justify-content: space-between;
     margin: 130px 275px;
 }
-.titulo{
+
+.titulo {
     font-size: 45px;
-    color: #252424; ;
+    color: #252424;
+    ;
     margin: 0px 0px 15px 0px;
 }
 
-.Texto-cuerpo p{
+.Texto-cuerpo p {
     margin-top: 8px;
 }
 
-.boton-body{
-    background-color:  rgb(2, 13, 44);
+.boton-body {
+    background-color: rgb(2, 13, 44);
     color: white;
     border-radius: 15px;
     width: 120px;
-    margin-top: 45px ;
+    margin-top: 45px;
     height: 40px;
 
 }
 
-.logo-nav{
+.logo-nav {
     display: flex;
     align-items: flex-end;
     width: 500px;
     height: 300px;
-    
+
 }
 
-.Texto-cuerpo2{
+.Texto-cuerpo2 {
     display: flex;
     justify-content: space-evenly;
     margin: 130px 250px;
-    
+
 }
 
-.Texto-cuerpo2 p{
+.Texto-cuerpo2 p {
     margin-top: 8px;
 }
 
 
-.parrafo-boton p{
+.parrafo-boton p {
     margin-top: 20px;
 }
 
-.imagen{
+.imagen {
     height: 280px;
     width: 550px;
 }
 
 
-.precios{
+.precios {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 100px;
 }
 
-.titulo-precios{
+.titulo-precios {
 
     margin-top: 0px;
     text-align: center;
@@ -170,7 +175,7 @@ body{
 
 }
 
-.precios1{
+.precios1 {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -179,16 +184,16 @@ body{
     align-items: center;
 }
 
-.boton-startup{
+.boton-startup {
     margin-top: 40px;
-    background-color:  rgba(4, 248, 146, 0);
+    background-color: rgba(4, 248, 146, 0);
     font-weight: bolder;
     border-radius: 20px;
     padding: 10px 15px;
     width: 120px;
 }
 
-.premium{
+.premium {
     width: 400px;
     text-align: center;
     color: #fff;
@@ -202,52 +207,53 @@ body{
     border-radius: 1%;
 }
 
-.premium p{
-    line-height: 30px;
-}
-.precios1 p{
+.premium p {
     line-height: 30px;
 }
 
-.boton-premium{
+.precios1 p {
+    line-height: 30px;
+}
+
+.boton-premium {
     margin-top: 40px;
-    background-color:  rgb(4, 248, 146);
+    background-color: rgb(4, 248, 146);
     font-weight: bolder;
     border-radius: 20px;
     padding: 10px 15px;
     width: 120px;
 }
 
-.boton-professional{
+.boton-professional {
 
     margin-top: 40px;
-    background-color:  rgba(4, 248, 146, 0);
+    background-color: rgba(4, 248, 146, 0);
     font-weight: bolder;
     border-radius: 20px;
     padding: 10px 15px;
     width: 120px;
 }
 
-.startup-title{
+.startup-title {
     font-size: 20px;
     font-weight: bolder;
 }
 
-.premium-title{
+.premium-title {
     font-size: 20px;
     font-weight: bolder;
 }
 
-.professional-title{
+.professional-title {
     font-size: 20px;
     font-weight: bolder;
 }
 
-.precios span{
+.precios span {
     font-size: 90px;
 }
 
-.marcas{
+.marcas {
     background-color: #ECEEEF;
     padding-top: 80px;
     padding-bottom: 60px;
@@ -255,7 +261,7 @@ body{
     justify-content: space-evenly;
 }
 
-.contacto{
+.contacto {
     display: flex;
     background-image: url(../assets/images/contact-bk.jpg);
     width: 100%;
@@ -263,50 +269,72 @@ body{
     justify-content: space-evenly;
 }
 
-.titulo-contacto{
+.titulo-contacto {
     font-size: 45px;
     margin-bottom: 30px;
 }
-.textos{
+
+.textos {
     margin-top: 120px;
     color: #fff;
 }
 
-.parrafo2{
+.parrafo2 {
     margin-bottom: 25px;
 }
 
-.inputs{
-    margin-top: 120px ;
+.inputs {
+    margin-top: 120px;
     color: #fff;
 }
-.texto-inputs{
+
+.texto-inputs {
+    margin-bottom: 20px;
+    margin-top: 20px    ;
     font-weight: lighter;
     color: rgb(4, 248, 146);
+    
 }
 
-.name{
-    width: 200px;
-    border-color:rgb(4, 248, 146) ;
+.name {
+    width: 220px;
+    height: 25px;
+    border-color: rgb(4, 248, 146);
     background-color: #19244000;
-    border-radius: 5%;
+    border-radius: 5px;
+    
 }
-.email{
-    border-color:rgb(4, 248, 146) ;
+
+.email {
+    width: 220px;
+    height: 25px;
+    border-color: rgb(4, 248, 146);
     background-color: #19244000;
 }
-.mensaje{
-    border-color:rgb(4, 248, 146) ;
+
+.mensaje {
+    width: 500px;
+    height: 200px;
+    padding-top: 10px;
+    color: #fff;
+    border-color: rgb(4, 248, 146);
     background-color: #19244000;
 }
-.textos p{
+
+.textos p {
     line-height: 30px;
 }
 
-.primera-linea{
+.primera-linea {
     display: flex;
     justify-content: space-between;
 }
-.name1{
+
+.name1 {
     width: 45%;
+}
+
+footer{
+    height: 150px;
+    background-color:#192440;
 }
