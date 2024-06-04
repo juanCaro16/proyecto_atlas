@@ -111,9 +111,9 @@ body {
 .titulo {
     font-size: 45px;
     color: #252424;
-    ;
     margin: 0px 0px 15px 0px;
 }
+
 
 .Texto-cuerpo p {
     margin-top: 8px;
@@ -703,4 +703,181 @@ footer {
 }
 @media screen and (max-width: 480px){
     
+    main {
+        width: 120%;
+        background-size: cover;
+    }
+
+    h2 {
+        color: #e1ec07;
+    }
+
+    header {
+        width: 82vh;
+        
+    }
+
+    .textoTitulo{
+        font-size: 65px;
+        padding-bottom: 30px;
+    }
+
+    .text-header{
+        width: 550px;
+    }
+    .Parrafos{
+        font-size: 15.5px;
+    }
+
+    .section2 {
+        margin: 20px;
+    }
+
+    .text-header {
+        justify-content: space-between;
+        margin: 0px 50px;
+    }
+
+    .text-Header {
+        margin: 0px 20px;
+    }
+
+    .Titles {
+        font-size: 55px;
+        margin-top: 100px;
+    }
+
+    .Title-body {
+        text-align: center;
+        font-size: 35px;
+        width: 60vh;
+        justify-content: center;
+    }
+
+    .logos-body {
+        width: 85vh;
+        justify-content: space-around;
+    }
+
+    .nav-text-logos {
+        width: 60vh;
+        justify-content: space-between;
+        font-size: 12px;
+        
+    }
+
+    
+    .nav-text-logos1 {
+        width: 60px;
+        font-size: 10px;
+        justify-content: space-between;
+    }
+    
+    .texto-logos1 {
+        justify-content: space-between;
+        width: 60vh;
+        margin-top: 1px;
+        margin: 40px;
+    }
+
+    .Texto-cuerpo {
+        width: 80vh;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .feature-1{
+        width: 120vh;
+        height: 0vh;
+    }
+
+    
+
+    .titulo{
+        margin-top: 20px;
+        margin-left: 20px; 
+        
+    }
+
+    .logo-nav{
+        width: 390px;
+    }
+    .texto-titulo-body{
+        margin-left: 20px;
+    }
+
+    .Texto-cuerpo2 {
+        width: 50vh;
+        justify-content: space-evenly;
+        margin: 70px 0px;
+    }
+
+    .parrafo-boton {
+        width: 700px;
+    }
+
+    .titulo-precios {
+        width: 80vh;
+        justify-content: center;
+    }
+
+    .precios {
+        width: 100vh;
+        justify-content: space-around;
+    }
+
+    .marcas {
+        height: 50px;
+        width: 105vh;
+        justify-content: baseline;
+    }
+
+    .ultimo-section {
+        padding: 20px;
+        padding-left: 20px;
+        width: 100vh;
+        gap: 10px;
+    }
+
+    .titulo-ultimaSection {
+        white-space: nowrap;
+    }
+
+    .arreglar-inputs {
+        width: 250px;
+        flex-direction: column;
+
+
+
+    }
+
+    .inputs {
+        width: 230px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .input-mensaje {
+        width: 230px;
+    }
+
+    .boton-ultimaSection {
+        width: 230px;
+    }
+
+    footer {
+        align-items: center;
+        width: 110vh;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .ultimoP {
+        margin: 0px 20px;
+    }
+
+    .imagenes {
+        width: 100vh;
+        margin-left: 200px;
+    }
+
 }
