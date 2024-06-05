@@ -313,6 +313,7 @@ body {
 }
 
 .inputs {
+    color: #fff;
     background-color: transparent;
     border-radius: 5px;
     height: 25px;
@@ -329,6 +330,7 @@ body {
 }
 
 .input-mensaje {
+    color: #fff;
     border-radius: 5px;
     border-color: #00F182;
     background-color: transparent;
@@ -727,6 +729,7 @@ footer {
         width: 550px;
     }
     .Parrafos{
+        width: 450px;
         font-size: 15.5px;
     }
 
@@ -750,8 +753,8 @@ footer {
 
     .Title-body {
         text-align: center;
-        font-size: 35px;
-        width: 60vh;
+        font-size: 25px;
+        width: 400px;
         justify-content: center;
     }
 
@@ -759,19 +762,32 @@ footer {
         width: 85vh;
         justify-content: space-around;
     }
+    .nav-text-logos h2{
+        font-size: 15px;
+        width: 85vh;
+    }
 
     .nav-text-logos {
-        width: 60vh;
+        width: 90vh;
         justify-content: space-between;
         font-size: 12px;
         
     }
 
+    .nav-text-logos1 p{
+        font-size: 12px;
+        width: 55px;
+        justify-content: space-between;
+    }
     
     .nav-text-logos1 {
-        width: 60px;
+        width: 100px;   
         font-size: 10px;
         justify-content: space-between;
+    }
+    .imagen{
+        width: 400px;
+        padding-right: 20px;
     }
     
     .texto-logos1 {
@@ -821,48 +837,58 @@ footer {
         width: 80vh;
         justify-content: center;
     }
+    
+    .primer-apartado{
+        width: 130px;
+    }
 
     .precios {
-        width: 100vh;
+        width: 80vh;
         justify-content: space-around;
     }
 
     .marcas {
         height: 50px;
-        width: 105vh;
+        width: 82vh;
         justify-content: baseline;
     }
 
     .ultimo-section {
         padding: 20px;
         padding-left: 20px;
-        width: 100vh;
+        width: 77vh;
         gap: 10px;
     }
 
     .titulo-ultimaSection {
         white-space: nowrap;
     }
-
-    .arreglar-inputs {
-        width: 250px;
-        flex-direction: column;
-
-
-
+    .segundo-apartado{
+        width: 50px;
+        position: initial;
     }
 
+    .arreglar-inputs {
+        width: 10px;
+        flex-direction: column;
+
+    }
+    .title-input{
+        width: 180px;
+    }
     .inputs {
-        width: 230px;
+        
+        width: 200px;
         margin: 0px 0px 10px 0px;
     }
 
     .input-mensaje {
-        width: 230px;
+        width: 200px;
     }
 
     .boton-ultimaSection {
-        width: 230px;
+        width: 180px;
+        
     }
 
     footer {
